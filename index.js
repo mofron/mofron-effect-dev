@@ -2,12 +2,9 @@
  * @file mofron-effect-dev/index.js
  * @author simpart
  */
+const mf = require('mofron');
 
-/**
- * @class xxx
- * @brief radius style effect class
- */
-mofron.effect.xxx = class extends mofron.Effect {
+mf.effect.xxx = class extends mf.Effect {
     
     constructor (prm) {
         try {
@@ -19,16 +16,7 @@ mofron.effect.xxx = class extends mofron.Effect {
         }
     }
     
-    enable () {
-        try {
-            
-        } catch (e) {
-            console.error(e.stack);
-            throw e;
-        }
-    }
-    
-    disable () {
+    contents (cmp) {
         try {
             
         } catch (e) {
@@ -37,4 +25,4 @@ mofron.effect.xxx = class extends mofron.Effect {
         }
     }
 }
-module.exports = mofron.effect.xxx;
+module.exports = mf.effect.xxx;
