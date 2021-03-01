@@ -1,6 +1,6 @@
 {
   "name": "mofron-effect-dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "development for mofron effect ",
   "main": "index.js",
   "scripts": {

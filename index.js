@@ -15,11 +15,11 @@ module.exports = class extends mofron.class.Effect {
     constructor (p1) {
         try {
             super();
-            this.name("");      // please set effect modume name
+            this.modname("");   // please set effect modume name
             this.shortForm(""); // please set short form parameter
-            
+            this.transition();  // regist css key for animation
+
             /* init config */
-            
 	    if (0 < arguments.length) {
                 this.config(p1);
 	    }
